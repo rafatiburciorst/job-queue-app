@@ -1,0 +1,16 @@
+{
+	"devDependencies": {
+		"@types/node": "^20.14.8",
+		"tsx": "^4.15.7",
+		"typescript": "^5.5.2"
+	},
+	"dependencies": {
+		"bullmq": "^5.8.2",
+		"fastify": "^4.28.0",
+		"ioredis": "^5.4.1"
+	},
+	"scripts": {
+		"start": "node index.js",
+		"dev": "tsx watch src/app.ts"
+	}
+}
